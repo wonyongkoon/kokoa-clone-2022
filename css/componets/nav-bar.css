@@ -1,0 +1,41 @@
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121,121,121,0.3);
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.nav__link{
+    position: relative;
+    color: #2e363e;
+}
+
+.nav__notification{
+    /* 겹쳐 보이게 하기 위해선 position: absolute; 해야하고 부모컨테이너의 상태를 position: relative; 해줘야함 */
+    position: absolute; 
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__notification2{
+    background-color: tomato;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    /* 겹쳐 보이게 하기 위해선 position: absolute; 해야하고 부모컨테이너의 상태를 position: relative; 해줘야함 */
+    position: absolute; 
+    left: 25px;
+    bottom: 25px;
+}
